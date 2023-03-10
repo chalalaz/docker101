@@ -41,7 +41,10 @@ docker run -d --name fastapi-container -p 80:80 fastapi-image
 
  docker run -d --name fastapi-container -p 80:80 -v $(pwd):/code fastapi-image
  ```
-## 4. Use IDE in Docker
+## 4. Use IDE(VSCODE) in Docker
+1. install Docker extension
+2. install Dev Containers extension
+3. install python extension
 ## 5. Docker Compose
 
 ```yml
